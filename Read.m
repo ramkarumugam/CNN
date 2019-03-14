@@ -11,7 +11,7 @@ end
 filePattern = fullfile(myFolder, '*.png');
 jpegFiles = dir(filePattern);
 
-%Image size is for the grayscale images mentioned dataset-(height,weight)
+%Image size is for the grayscale images mentioned dataset-(height,width)
 
 imageArraytemp=zeros(40,100,length(jpegFiles));
 
