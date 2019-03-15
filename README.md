@@ -12,4 +12,4 @@ The file 'Read.m' reads all images and stores in to an image array.
 Then run 'Start.m', which is the executable file, which calls other programs and complete convolution and training. 
 'Imageprocess.m' which will do convolution and pooling. The matrix obj.hor can be replaced with your desired convolution kernel. 
 'trainer.m' - training algorithm. 
-'NeuralNetwork.m' - A three layer, neural network with bias and momentum learning. 
+'NNwithBias.m' - A three layer, neural network with bias. 
