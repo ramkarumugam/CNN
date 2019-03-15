@@ -25,8 +25,9 @@ params.hLs=150;
 params.oLs=1;
 
 %Feedforward
+%replace 'NNwithBias' with the neural network you want to use.
 
-net= XOR1(params,trainX);
+net= NNwithBias(params,trainX);
 yHat = forward(net,trainX);
 
 %%Training Parameters
